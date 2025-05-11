@@ -60,3 +60,5 @@ jobs:
           docker push ${{ env.DOCKER_IMAGE }}:${{ env.BRANCH_NAME }}
           docker push ${{ env.DOCKER_IMAGE }}:${{ env.GIT_COMMIT_SHORT }}
           docker push ${{ env.DOCKER_IMAGE }}:${{ env.GIT_COMMIT_LONG }}
+
+ 
